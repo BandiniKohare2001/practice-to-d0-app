@@ -1,0 +1,28 @@
+.card{
+    background-color: antiquewhite;
+    width: 500px;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    box-shadow: 1px 1px 5px 1px gray;
+}
+.priority{
+    background-color: aqua;
+    left:auto;
+    right: 0;
+    bottom: auto;
+    top: 0;
+    width: 100px;padding: 5px;
+    position: absolute;
+}
+.activities{
+    left: auto;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.delete{
+    margin-left: 10px;
+    font-size: 30px;
+   cursor: pointer;
+}
