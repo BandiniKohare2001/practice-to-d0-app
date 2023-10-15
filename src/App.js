@@ -65,8 +65,6 @@ function App() {
       showToast('Pri is reruired' , 'Danger', 3000);
       return
     }
-    
-
     const randomId = Math.floor(Math.random() * 1000);
     const obj = {
       id: randomId,
@@ -85,11 +83,11 @@ function App() {
 
 
   //  find Task index By Id
-  const findTaskById = (id) => {
+  const findTaskById = (taskid) => {
     let index;
 
     taskList.forEach((task, index) => {
-      if (task.id === id) {
+      if (task.id === taskid) {
         index = index
       }
     })
